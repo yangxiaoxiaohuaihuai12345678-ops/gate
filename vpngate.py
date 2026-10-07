@@ -303,7 +303,6 @@ EDGE_HOSTS = [
     ).split(",")
     if h.strip()
 ]
-
 NODES_URL = os.environ.get("NODES_URL", "https://yangxiaoxiahuaihuai12345678-ops.github.io/gate/nodes.txt")
 
 def build_nodes_text(data):
